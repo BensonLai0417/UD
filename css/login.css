@@ -1,0 +1,59 @@
+html,body,h1,a,p,li,header,nav,center{
+	line-height: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+body{
+	width: 100%;
+	border: 0px;
+	margin: auto;
+	scroll-behavior: smooth;
+	background-color: #3f3f3f;
+	color: rgb(255, 255, 255);
+  }
+
+h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.name_herf-class{
+	color: #008cff;
+  }
+
+input{
+	width: 342px;
+	height: 42px;
+	border: none;
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.582);
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgb(0, 132, 255);
+  }
+
+  input:focus{
+	border-radius: 5px;
+	border: 2px solid rgb(178, 246, 255);
+  }
+
+
+div{
+	text-align: center;
+}
+
+button{
+	width: 342px;
+	height: 42px;
+	outline: none;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: #4fa2d5;
+	transition: background-color 0.8s;
+	box-shadow: 0 0 7px rgb(0, 217, 255);
+}
+button:hover {
+	background-color: #00a2ff;
+}
